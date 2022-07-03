@@ -72,8 +72,8 @@ export default {
       this.showAddTask = false
       setTimeout(() => {
         this.showAddTask = true
-        console.log("this", this.taskData)
-      }, 500)
+        //console.log("this", this.taskData)
+      }, 100)
     },
     toggleReminder(id) {
       //console.log(id)
